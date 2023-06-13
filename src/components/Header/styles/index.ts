@@ -13,7 +13,6 @@ export const Logo = styled.Image`
 `
 export const BackButton = styled.TouchableOpacity`
   flex: 1;
-  background-color: ${({ theme }) => theme.COLORS.GREEN_500};
 `
 
 export const BackIcon = styled(CaretLeft).attrs(({ theme }) => ({
